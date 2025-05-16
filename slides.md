@@ -113,38 +113,26 @@ class: flex flex-col h-full justify-center gap-4 text-white
 
 ---
 layout: center
-class: bg-[#172966] text-white
 ---
 
-## 聚焦第一步：把模糊的想法變成具體的需求與企劃書
-
-我們從最重要的起點開始：
-- 你要解決的問題是什麼？
-- 你的需求是什麼？
+## Software Development Life Cycle (SDLC)
 
 ---
-layout: center
-class: bg-[#172966] text-white
+class: flex flex-col h-full justify-center items-center gap-4
 ---
 
-這場講座不只是讓你「看我做」，而是讓你「跟我一起做」。  
-今天我們不只是學習，還會實際動手完成：
-
-- 一份 Google Docs 的企劃提案文件  
-- 一份報名用的 Google Form 表單 
-
----
-class: flex flex-col h-full justify-center items-center gap-4 text-white bg-[#172966]
----
+## Software Development Life Cycle (SDLC)
 
 <div class="flex justify-center items-center gap-4 mt-6 mb-4">
   <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center text-white font-bold text-xl">1</div>
+    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl">1</div>
     <div class="mt-2 text-xs font-semibold text-center">需求分析<br><span class="text-[10px] text-gray-400">Requirement Analysis</span></div>
   </div>
+
+  
   <div class="text-2xl text-gray-400">→</div>
   <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center text-white font-bold text-xl">2</div>
+    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl">2</div>
     <div class="mt-2 text-xs font-semibold text-center">規劃設計<br><span class="text-[10px] text-gray-400">Planning & Design</span></div>
   </div>
   <div class="text-2xl text-gray-400">→</div>
@@ -169,45 +157,82 @@ class: flex flex-col h-full justify-center items-center gap-4 text-white bg-[#17
   </div>
 </div>
 
-<div class="text-center text-sm mt-4 text-gray-500">
-本場講座聚焦於上面這個流程中的 <span class="font-semibold text-green-600">第一步「需求分析」</span>，其他步驟我們以後再說。
-</div>
-
+---
+layout: center
+class: bg-[#172966] text-white
 ---
 
-## 聚焦第一階段：需求分析與原型規劃
+## 聚焦第一步？
 
-- 如何用 ChatGPT 協助你釐清需求
-- 如何讓 AI 幫你寫出「企劃書」
-- 如何快速建立 Google Form + Docs + Sheets + Mail 的完整流程
+- 寫程式之前，**你要知道你要做什麼**
+- 企劃不清楚，程式碼就會混亂
+- 大多數案子失敗，不是寫錯，是「做錯」
 
----
-
-## 實戰案例：旅行社員工旅遊企劃書 + 報名系統
-
-👥 對象：公司行政人員  
-🎯 需求：幫 30 位員工規劃 3 天 2 夜日本行程  
-📄 輸出：計畫書、預算表、報名表單、自動通知信
-
-👣 流程：
-
-1. 用 ChatGPT 拆需求、產生摘要與計畫書
-2. 用 Apps Script 自動建立 Google Docs 與 Google Sheets
-3. 建立 Google Form 報名表，連動表單與郵件
+> 🎯 這場分享不是教你 coding，而是教你 **如何開始**
 
 ---
+layout: center
+class: bg-[#172966] text-white
+---
 
-## 用 ChatGPT 解一個真實的需求
+## 熟悉嗎？
 
-以一份「員工旅遊企劃案」為例，  
-我們會：
+- 主管說：「幫我寫一份旅遊企劃」
+- 朋友說：「幫我弄個報名系統」
+- 自己想：「有沒有辦法自動寄信？」
 
-1. 用 ChatGPT 拆解對話、整理需求
-2. 自動產出企劃摘要（Google Docs）
-3. 建立報名表單（Google Form + Sheets）
-4. 自動發信通知參與者
+> 🤔 你知道要做什麼，但不知道怎麼開始  
+> 👉 今天就是從這裡開始
 
-這是一個從模糊對話到具體產出、從想法變成系統的完整流程。
+---
+layout: center
+class: bg-[#172966] text-white
+---
+
+## 今天，我們會一起完成這三件事
+
+✅ ChatGPT 拆需求 → 得到清楚摘要  
+✅ 自動產出 Google Docs（企劃書）  
+✅ 建立 Google Form + Sheets + 寄信
+
+> 🌱 三步驟，一條龍自動化實作！
+
+---
+layout: two-cols
+---
+
+## Input → Output
+
+- 對話：「幫我安排員工旅遊」
+- Prompt 設計：明確化、可抽換變數
+- ChatGPT：產出可修改的草稿
+- Apps Script：套件式自動處理文件與表單
+
+---
+layout: center
+---
+
+## 一個新習慣：用 ChatGPT 當你的「對話型規劃助理」
+
+- 你問 ChatGPT 的，不是「寫什麼程式」
+- 而是「幫我釐清我要什麼」
+
+> 你不需要當資深工程師  
+> 只要學會 **如何好好提問、好好整理**
+
+---
+layout: center
+---
+
+## 我們完成了什麼？
+
+- 一份從聊天轉換而來的企劃書  
+- 一個可用的 Google 表單系統  
+- 一整個自動化寄信的流程
+
+> 🎯 你已經完成了一份可以交付的成果
+
+
 
 ---
 
