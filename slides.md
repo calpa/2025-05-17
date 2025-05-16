@@ -7,7 +7,7 @@ background: '#000000'
 class: flex flex-col items-center justify-center h-screen relative text-white p-0
 ---
 
-<Loading />
+<LoadingScene />
 
 ---
 layout: center

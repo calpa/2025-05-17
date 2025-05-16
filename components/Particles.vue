@@ -1,3 +1,5 @@
+<!-- Particles.vue -->
+
 <template>
   <!-- 粒子動畫層 -->
   <svg
