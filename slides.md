@@ -25,9 +25,9 @@ class: flex flex-col h-full justify-center items-center gap-4
 
 ## 歡迎加入 Discord！
 
-- 本場講座採用 Discord 互動
+- 本場講座將在 Discord 上與大家互動
 - 進入指定頻道可隨時發問
-- 也可用 emoji/貼圖參與互動
+- 你也可以用 emoji 或貼圖來參與討論、表達想法
 
 <div class="text-blue-400">https://discord.gg/Cb9F6MTC26</div>
 
@@ -59,7 +59,7 @@ class: flex flex-col h-full justify-center gap-4 text-white
 
 ## 技術博客
 
-- 持續撰寫前端、後端、Web3 教學文章，涵蓋 Astro、React.js、TypeScript 等主題
+- 持續分享前端、後端與 Web3 技術文章與實作心得，涵蓋 Astro、React.js、TypeScript 等主題
 - 2025 年 3 月中開始每日一篇鐵人賽
 - 2017 起累積 276 篇文章
 
@@ -109,6 +109,22 @@ class: flex flex-col h-full justify-center gap-4
 ![Urusai](https://i.imgur.com/KTPJizf.png)
 
 ---
+layout: center
+---
+
+## 實際例子
+
+一家公司需要找人外包做一個「2025 員工沖繩獎勵旅遊」的完整企劃，以及手機 APP。
+需求如下：
+
+- 必須有活動簡介、行程安排、預算估算
+- 需要線上報名功能，方便同仁填寫個人資料
+- 報名資料要自動匯入 Google Sheets，方便管理
+- 報名後自動寄信通知員工，確認已收到申請
+
+你會怎麼開始進行？該先釐清哪些重點？
+
+---
 class: flex flex-col h-full justify-center items-center gap-4
 ---
 
@@ -122,23 +138,9 @@ class: bg-[#172966] text-white
 ## 為什麼從 SDLC 開始？
 
 - 每個 App 背後都有一套「需求 → 規劃 → 實作 → 交付」的流程  
-- 很多看似簡單的請求，其實都能轉換成這樣的結構
+- 許多表面上簡單的需求，其實背後都有一套可拆解的流程邏輯
 
 > 今天的例子，就是從一個「旅行企劃需求」開始，逐步落地為一個完整系統
-
----
-
-## 實際例子
-
-一家公司需要找人外包做一個「2025 員工沖繩獎勵旅遊」的完整企劃，以及手機 APP。
-需求如下：
-
-- 必須有活動簡介、行程安排、預算估算
-- 需要線上報名功能，方便同仁填寫個人資料
-- 報名資料要自動匯入 Google Sheets，方便管理
-- 報名後自動寄信通知員工，確認已收到申請
-
-你要怎麼開始著手？有哪些細節要規劃？
 
 ---
 layout: center
@@ -158,34 +160,11 @@ layout: center
 class: bg-[#172966] text-white
 ---
 
-## 今天我們會走這樣一條路：
-
-1. 找出問題：旅行企劃的需求
-2. 釐清內容：用 ChatGPT 生出企劃草稿
-3. 自動化排版：用 Apps Script 產出 Google Docs
-4. 收集資料：打造 Google Form 串接 Sheets
-5. 自動寄信：完成通知流程
-
-> 🎯 我們從對話開始，走到一個完整的工具流程
-
----
-layout: center
----
-
-## ChatGPT
-
-我們的第一位助理
-
----
-layout: center
-class: bg-[#172966] text-white
----
-
 ## 我們要用 ChatGPT 做什麼？
 
 - 分析需求 → 生出企劃草稿（有結構、有邏輯、有語氣）
 - 無痛進入文件寫作的第一步
-- 把過去三天的工作，變成三分鐘完成
+- 讓原本要花三天完成的提案，三分鐘就能搞定
 
 > 🪄 這不只是「生成文字」，而是讓你擁有一個思路清晰的提案助理
 
@@ -204,7 +183,7 @@ layout: center
 - 必備內容：摘要、背景、解決方案、執行步驟、預期成效、預算概覽、注意事項
 ```
 
-<div v-click>ChatGPT DEMO 時間</div>
+<div v-click>實戰示範：讓 ChatGPT 開始幫我們動手做！</div>
 
 ---
 layout: center
@@ -217,7 +196,7 @@ layout: center
 - 語法接近 JavaScript，容易上手
 - 支援**排程、觸發器、自動化**所有重複操作！
 
-> 🧙‍♂️ 你可以把它想像成 Google 生態系裡的「魔法機器人」
+> 🧙‍♂️ 可以把它想像成幫你自動完成重複任務的 Google 魔法助手
 
 ---
 layout: center
@@ -239,13 +218,15 @@ layout: center
 請根據上述內容，協助我產生一段 Google Apps Script 程式碼，實現自動化產生 Google Docs 企劃書的功能，並根據指定章節與內容結構自動排版。
 ```
 
-<div v-click>ChatGPT DEMO 時間</div>
+<div v-click>實戰示範：讓 ChatGPT 開始幫我們動手做！</div>
 
 ---
 layout: center
 ---
 
-## Google Apps Script 表演時間
+## 現在，讓我們看看魔法怎麼施展 ✨
+
+ChatGPT -> Google Apps Script -> Google Docs
 
 ---
 layout: center
@@ -259,18 +240,22 @@ class: bg-[#172966] text-white
 - 接 webhook 自動產出 Google Sheet 報表
 - 或串接 LINE Bot、自製小工具…
 
-> ✅ 就像 Notion 有 API、Zapier 能連接一切，Apps Script 就是 Google 世界的底層魔法
+> ✅ 就像 Notion 有 API、Zapier 能連接一切，Apps Script 就是串起 Google 工具自動化的魔法引擎
 
 
 ---
-
-## 利用 Bolt.new 製作獨一無二的 APP
-
-這一次我們會製作 Google Form
-
+layout: center
 ---
 
-## 報名表格
+## 實作時間
+
+用 ChatGPT + Apps Script 打造你的第一份自動化表單
+
+- 親自體驗 AI × 自動化的威力
+- 練習用今天學到的 SDLC 流程拆解問題
+- 讓 ChatGPT 幫你產出草稿，Apps Script 負責自動化落地
+
+> 🎯 實戰演練：從需求、規劃到交付，打造一份能即時收集報名資料的自動化表單
 
 ---
 
@@ -280,8 +265,7 @@ class: bg-[#172966] text-white
 1. 姓名（必填）
 2. Email（必填並驗證格式）
 3. 程式經驗（單選：完全新手、有簡單經驗、熟悉前端、熟悉後端）
-4. 偏好講座語言（單選：粵語、國語、都可以）
-5. 訂閱意願（單選：願意，我對 AI 寫程式的內容很有興趣；暫時不需要，謝謝）
+4. 訂閱意願（單選：願意，我對 AI 寫程式的內容很有興趣；暫時不需要，謝謝）
    並將回應自動串接到同名 Google Sheets。
 
 請你參考以下的代碼，完成表單的建立和配置：
@@ -389,21 +373,32 @@ function createOrEditBoltNewForm() {
 ````
 
 ---
-
-## 自動製作 Google Form
-
+layout: center
 ---
 
-## 自動製作 Google Sheets
+## 現在，讓我們再次施展魔法 ✨
+
+ChatGPT -> Google Apps Script -> Google Form
 
 ---
+layout: center
+---
 
-## 我們完成了什麼？
+## Google Form 實際效果
 
-- 一份從聊天轉換而來的企劃書
-- 一個可用的 Google 表單系統
+---
+layout: center
+---
 
-> 🎯 你已經完成了一份可以交付的成果
+## 我們做到了什麼？
+
+- 用 ChatGPT 快速產生結構化企劃書
+- 利用 Apps Script 自動建立 Google Docs、Google 表單
+- 實現報名、資料串接、資訊自動化處理
+
+> 🎯 讓 AI 寫內容、Script 排版流程，表單同步管理
+
+> 一站式完成 Google Docs + Google Form + 自動串接
 
 ---
 layout: center
@@ -417,7 +412,7 @@ class: bg-[#172966] text-white
 - 💼 行銷簡報、Pitch Deck、活動規劃書
 - ⚖️ 合約草稿、自動補條款
 
-> 📌 你只需要換一組 Prompt，AI 就能幫你打樣出來
+> 📌 只要換一組 Prompt，AI 就能幫你快速生出雛形
 
 ---
 
