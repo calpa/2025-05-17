@@ -205,12 +205,21 @@ layout: center
 ```
 
 ---
+layout: center
+---
 
+## ChatGPT DEMO 時間
+
+---
+layout: center
+---
 ## 把草稿轉成程式：讓 Apps Script 幫你自動化
 
 ```markdown
 請根據上述內容，協助我產生一段 Google Apps Script 程式碼，實現自動化產生 Google Docs 企劃書的功能，並根據指定章節與內容結構自動排版。
 ```
+
+<div v-click>ChatGPT DEMO 時間</div>
 
 ---
 layout: center
