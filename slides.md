@@ -71,8 +71,8 @@ class: flex flex-col h-full justify-center gap-4 text-white
 
 ---
 layout: two-cols
-layoutClass: gap-4 bg-[#172966]
-class: flex flex-col h-full justify-center gap-4 text-white
+layoutClass: gap-4
+class: flex flex-col h-full justify-center gap-4
 ---
 
 ## OrbitGO
@@ -109,14 +109,14 @@ class: flex flex-col h-full justify-center gap-4
 ![Urusai](https://i.imgur.com/KTPJizf.png)
 
 ---
-layout: center
+layout: two-cols
+layoutClass: gap-4
+class: flex flex-col h-full gap-2
 ---
 
 ## 實際案例情境
 
-你收到一個專案需求——幫一家公司規劃「2025 員工東京獎勵旅遊」，並開發一個旅遊行程助手 App，協助員工掌握行程、地點與注意事項。整體目標是簡化行政流程、強化參與體驗、提高交付效率。
-
-這位客戶提出了以下幾點需求：
+你收到一個專案需求——幫一家公司規劃「2025 員工東京獎勵旅遊」，並開發一個旅遊行程助手 App，協助員工掌握行程、地點與注意事項。整體目標是簡化行政流程、強化參與體驗、提高交付效率。這位客戶提出了以下幾點需求：
 
 <ul>
   <li v-click>需要一份完整的企劃書，包含活動簡介、日程安排與預算估算</li>
@@ -126,8 +126,10 @@ layout: center
   <li v-click>最後，還想有一個簡單 App，能查行程、看地圖、接收提醒</li>
 </ul>
 
-<!-- 這是一個標準的「企劃 × 系統 × 自動化」任務。
-你會從哪個部分開始拆解？又有哪些流程可以交給 AI 協助完成？ -->
+
+::right::
+
+![Jakob Owens](https://assets.calpa.me/jakob-owens-e5tHWAAj8gA-unsplash.avif)
 
 ---
 class: flex flex-col h-full justify-center items-center gap-4
@@ -161,8 +163,9 @@ class: bg-[#172966] text-white
 > 🎯 這場分享不是只講 coding，更強調 **如何開始、如何規劃**
 
 ---
-layout: center
-class: bg-[#172966] text-white
+layout: two-cols
+layoutClass: gap-4
+class: flex flex-col h-full justify-center gap-4
 ---
 
 ## 我們要用 ChatGPT 做什麼？
@@ -172,6 +175,10 @@ class: bg-[#172966] text-white
 - 讓原本要花三天完成的提案，三分鐘就能搞定
 
 > 🪄 這不只是「生成文字」，而是讓你擁有一個思路清晰的提案助理
+
+::right::
+
+![A close up of a computer screen with a menu on it](https://assets.calpa.me/emiliano-vittoriosi-fvxNerA8uk0-unsplash.avif)
 
 ---
 layout: center
@@ -422,19 +429,95 @@ class: bg-[#172966] text-white
 
 ---
 
-### 接下來的計畫
+## Q&A
 
-- 📍 **5/30（台中） & 6/1（台北）** 有兩場免費線下分享，歡迎報名
-- 🧪 **6 月份將推出 AI × App 實戰密集課程**
-  - 只要一小時，就能做出 2–3 個 App
-  - 價格為 **50 USDT（報名今天現場送 10 USD 折扣碼）**
+---
+layout: two-cols
+layoutClass: gap-4
+class: flex flex-col h-full justify-center gap-4
+---
+
+## 接下來的計畫
+
+- 30/5 台中 Vibe Coding 工作坊
+- 1/6 台北《AI 煉金術》實體分享會
+- 14/6 旅遊助手 App 實作分享會
+
+
+::right::
+
+![Train on Railway at Daytime](https://assets.calpa.me/b-k-HAl6CKxM3xU-unsplash.avif)
+
+---
+layout: two-cols
+---
+
+## 📍 5/30（台中）｜Vibe Coding 工作坊
+
+🧪 半天帶你從 0 到部署，親手打造自己的第一個產品！
+
+✨ 適合沒寫過程式、但想做產品的人
+
+🛠 使用工具：Cursor + Supabase + Zeabur
+
+👥 小組協作、當場實作與展示
+
+🗓 時間：5/30（五）13:30 – 18:00
+
+📍 地點：台中 Monospace（台灣大道二段2號16樓之2）
+
+🎟 報名連結：
+👉 https://www.accupass.com/event/2505100934043309165990
+
+::right::
+
+  <img src="./assets/2025-05-30.png" class="w-72 my-4 object-contain mx-auto" />
+
 
 ---
 
-# 感謝參與！
+## 📍 6/1（台北）｜《AI 煉金術》實體分享會
+從靈感到 Side Project，用 AI 工具煉出你的創作流程。
 
-🎯 今天，我們完成了從需求分析到報名系統的一條龍自動化流程
-💬 想持續學習、掌握更多實戰技巧？加入 Discord 社群、訂閱部落格或報名課程
-📩 有問題歡迎私訊，我會在 Discord 回應大家的提問！
+工具包含 ChatGPT、Firecrawl、Notion 等
+
+分享我從 prompt → 文章 → 產品的完整流程
+
+📅 時間：6/1（週日）15:00 – 18:00
+
+📍 地點：台北捷運站附近
+
+👥 已報名人數：17 / 30 人
+
+🆓 免費參加
+
+📌 報名表單：
+👉 https://forms.gle/C5pu8w9qZaHEajZq9
 
 ---
+
+## 📍 6/14（線上）｜旅遊助手 App 實作分享會
+
+🛠️ 利用今天的企劃成果，親手打造一個完整的 App！
+
+從 Google Docs 計畫 → ChatGPT Prompt → App 架構，一步步帶你實作
+
+功能涵蓋表單填寫、地圖查詢、行程提醒等模組
+
+適合希望快速將靈感變成產品的創作者
+
+📅 時間：6/14（週六）14:00 – 16:00
+
+📍 地點：Jitsi Meet 線上直播
+
+💰 費用：$50 USD（填寫問卷可折抵 $10 USD）
+
+---
+
+## 謝謝大家
+
+<img src="https://assets.calpa.me/感謝您讓我占用的寶貴時間.avif" class="w-2/3 my-4 object-contain mx-auto" />
+
+
+- 🎯 今天，我們完成了從需求分析到報名系統的一條龍自動化流程
+- 📩 有問題歡迎私訊，我會在 Discord 回應大家的提問！
