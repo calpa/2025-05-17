@@ -204,11 +204,31 @@ layout: center
 - 必備內容：摘要、背景、解決方案、執行步驟、預期成效、預算概覽、注意事項
 ```
 
+<div v-click>ChatGPT DEMO 時間</div>
+
 ---
 layout: center
 ---
 
-## ChatGPT DEMO 時間
+## 那什麼是 Google Apps Script？
+
+- Google 官方推出的雲端腳本語言
+- 幫你自動控制 Google Docs、Sheets、Forms 等工具
+- 語法接近 JavaScript，容易上手
+- 支援**排程、觸發器、自動化**所有重複操作！
+
+> 🧙‍♂️ 你可以把它想像成 Google 生態系裡的「魔法機器人」
+
+---
+layout: center
+---
+
+## 用白話來說，就是：
+
+- Google Docs 幫你寫內容  
+- Google Apps Script 幫你**一鍵排版、轉格式、寄信**
+
+> 🛠️ 是串起整套流程的自動化引擎，也是這場分享的主角之一！
 
 ---
 layout: center
@@ -226,6 +246,21 @@ layout: center
 ---
 
 ## Google Apps Script 表演時間
+
+---
+layout: center
+class: bg-[#172966] text-white
+---
+
+## 它還可以做什麼？
+
+- 自動寄 Gmail
+- 批次建立 Calendar 行程
+- 接 webhook 自動產出 Google Sheet 報表
+- 或串接 LINE Bot、自製小工具…
+
+> ✅ 就像 Notion 有 API、Zapier 能連接一切，Apps Script 就是 Google 世界的底層魔法
+
 
 ---
 
