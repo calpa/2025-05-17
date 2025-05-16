@@ -428,6 +428,8 @@ class: bg-[#172966] text-white
 > 📌 只要換一組 Prompt，AI 就能幫你快速生出雛形
 
 ---
+layout: center
+---
 
 ## Q&A
 
