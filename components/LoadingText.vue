@@ -2,7 +2,7 @@
   <div class="fixed inset-y-0 right-0 w-1/2 flex items-center justify-center z-10 pointer-events-none">
     <!-- 背景半圓 -->
     <div
-      class="absolute right-0 top-1/2 w-full h-[120%] opacity-80 z-0"
+      class="absolute right-0 top-1/2 w-full h-[120%] opacity-60 z-0 border-white border-l-2"
       style="background: linear-gradient(to bottom right, #1e3a8a, #1e3a8a, #000);
              border-top-left-radius: 9999px;
              border-bottom-left-radius: 9999px;
