@@ -1,27 +1,27 @@
 ---
-theme: seriph
+theme: dracula
 title: 用 ChatGPT + Apps Script 解放重複工作！
-transition: fade-in
+transition: fade
 mdc: true
-background: '#000000'
-class: flex flex-col items-center justify-center h-screen relative text-white p-0
 ---
 
 <LoadingScene />
 
 ---
 layout: center
+class: bg-[#172966] text-white font-mono
 ---
 
-<div class="text-3xl font-bold">用 ChatGPT + Apps Script 解放重複工作！</div>
+<div class="text-2xl">用 ChatGPT + Apps Script 解放重複工作！</div>
 
+<div class="text-xs opacity-50">2025-05-17</div>
 
-這場講座會帶你親手體驗，如何用 ChatGPT + Apps Script 一步步建立自己的 AI 自動化工作流程。
-
+<div class="text-xs italic opacity-50">Calpa Liu</div>
 
 ---
 layout: two-cols
-class: flex flex-col h-full justify-center items-center gap-4
+class: flex flex-col h-full justify-center items-center gap-4 text-white
+layoutClass: bg-[#172966]
 ---
 
 ## 歡迎加入 Discord！
@@ -32,16 +32,15 @@ class: flex flex-col h-full justify-center items-center gap-4
 
 <div class="text-blue-400">https://discord.gg/Cb9F6MTC26</div>
 
-> 我正在打造一個以實作為核心的 AI 學習社群，讓每一場分享都能變成可交付的成果 💡 🌱
-
 
 ::right::
 
-![Discord QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://discord.gg/Cb9F6MTC26)
+![Discord QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://discord.gg/Cb9F6MTC26&bgcolor=172966&color=ffffff)
 
 ---
 layout: two-cols
-class: flex flex-col h-full justify-center items-center gap-4
+class: flex flex-col h-full justify-center items-center gap-4 text-white
+layoutClass: bg-[#172966]
 ---
 
 - 💻 熟悉 TypeScript, React, Node.js, Solidity
@@ -57,15 +56,15 @@ class: flex flex-col h-full justify-center items-center gap-4
 
 ---
 layout: two-cols
-layoutClass: gap-4
-class: flex flex-col h-full justify-center gap-4
+layoutClass: gap-4 bg-[#172966]
+class: flex flex-col h-full justify-center gap-4 text-white
 ---
 
 ## 技術博客
 
 - 持續撰寫前端、後端、Web3 教學文章，涵蓋 Astro、React.js、TypeScript 等主題
 - 2025 年 3 月中開始每日一篇鐵人賽
-- 2017 起累積 254 篇文章
+- 2017 起累積 276 篇文章
 
 <div class="text-blue-400">https://calpa.me/</div>
 
@@ -75,8 +74,8 @@ class: flex flex-col h-full justify-center gap-4
 
 ---
 layout: two-cols
-layoutClass: gap-4
-class: flex flex-col h-full justify-center gap-4
+layoutClass: gap-4 bg-[#172966]
+class: flex flex-col h-full justify-center gap-4 text-white
 ---
 
 ## OrbitGO
@@ -92,8 +91,8 @@ class: flex flex-col h-full justify-center gap-4
 
 ---
 layout: two-cols
-layoutClass: gap-4
-class: flex flex-col h-full justify-center gap-4
+layoutClass: gap-4 bg-[#172966]
+class: flex flex-col h-full justify-center gap-4 text-white
 ---
 
 ## Urusai  
@@ -114,6 +113,7 @@ class: flex flex-col h-full justify-center gap-4
 
 ---
 layout: center
+class: bg-[#172966] text-white
 ---
 
 ## 聚焦第一步：把模糊的想法變成具體的需求與企劃書
@@ -123,30 +123,28 @@ layout: center
 - 你的需求是什麼？
 
 ---
-
-### 你也能做到！
+layout: center
+class: bg-[#172966] text-white
+---
 
 這場講座不只是讓你「看我做」，而是讓你「跟我一起做」。  
-今天我們不只是學習，還會 實際動手完成：
+今天我們不只是學習，還會實際動手完成：
 
 - 一份 Google Docs 的企劃提案文件  
-- 一份報名用的 Google Form 表單  
-- 自動串接 Sheet、寄信、回覆等流程
-
-> 不需要寫一行程式碼，只要有瀏覽器和 ChatGPT，就能打造出讓人眼睛一亮的工具！
+- 一份報名用的 Google Form 表單 
 
 ---
-class: flex flex-col h-full justify-center items-center gap-4
+class: flex flex-col h-full justify-center items-center gap-4 text-white bg-[#172966]
 ---
 
 <div class="flex justify-center items-center gap-4 mt-6 mb-4">
   <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center text-white font-bold text-xl">1</div>
+    <div class="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center text-white font-bold text-xl">1</div>
     <div class="mt-2 text-xs font-semibold text-center">需求分析<br><span class="text-[10px] text-gray-400">Requirement Analysis</span></div>
   </div>
   <div class="text-2xl text-gray-400">→</div>
   <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center text-white font-bold text-xl">2</div>
+    <div class="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center text-white font-bold text-xl">2</div>
     <div class="mt-2 text-xs font-semibold text-center">規劃設計<br><span class="text-[10px] text-gray-400">Planning & Design</span></div>
   </div>
   <div class="text-2xl text-gray-400">→</div>
