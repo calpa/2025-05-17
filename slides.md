@@ -20,8 +20,7 @@ class: bg-[#172966] text-white font-mono
 
 ---
 layout: two-cols
-class: flex flex-col h-full justify-center items-center gap-4 text-white
-layoutClass: bg-[#172966]
+class: flex flex-col h-full justify-center items-center gap-4
 ---
 
 ## 歡迎加入 Discord！
@@ -32,15 +31,13 @@ layoutClass: bg-[#172966]
 
 <div class="text-blue-400">https://discord.gg/Cb9F6MTC26</div>
 
-
 ::right::
 
 ![Discord QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://discord.gg/Cb9F6MTC26&bgcolor=172966&color=ffffff)
 
 ---
 layout: two-cols
-class: flex flex-col h-full justify-center items-center gap-4 text-white
-layoutClass: bg-[#172966]
+class: flex flex-col h-full justify-center items-center gap-4
 ---
 
 - 💻 熟悉 TypeScript, React, Node.js, Solidity
@@ -91,11 +88,11 @@ class: flex flex-col h-full justify-center gap-4 text-white
 
 ---
 layout: two-cols
-layoutClass: gap-4 bg-[#172966]
-class: flex flex-col h-full justify-center gap-4 text-white
+layoutClass: gap-4
+class: flex flex-col h-full justify-center gap-4
 ---
 
-## Urusai  
+## Urusai
 
 你的數位噪音保護罩
 
@@ -112,135 +109,279 @@ class: flex flex-col h-full justify-center gap-4 text-white
 ![Urusai](https://i.imgur.com/KTPJizf.png)
 
 ---
-layout: center
----
-
-## Software Development Life Cycle (SDLC)
-
----
 class: flex flex-col h-full justify-center items-center gap-4
 ---
 
-## Software Development Life Cycle (SDLC)
-
-<div class="flex justify-center items-center gap-4 mt-6 mb-4">
-  <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl">1</div>
-    <div class="mt-2 text-xs font-semibold text-center">需求分析<br><span class="text-[10px] text-gray-400">Requirement Analysis</span></div>
-  </div>
-
-  
-  <div class="text-2xl text-gray-400">→</div>
-  <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl">2</div>
-    <div class="mt-2 text-xs font-semibold text-center">規劃設計<br><span class="text-[10px] text-gray-400">Planning & Design</span></div>
-  </div>
-  <div class="text-2xl text-gray-400">→</div>
-  <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl">3</div>
-    <div class="mt-2 text-xs font-semibold text-center">開發實作<br><span class="text-[10px] text-gray-400">Implementation</span></div>
-  </div>
-  <div class="text-2xl text-gray-400">→</div>
-  <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl">4</div>
-    <div class="mt-2 text-xs font-semibold text-center">測試驗證<br><span class="text-[10px] text-gray-400">Testing</span></div>
-  </div>
-  <div class="text-2xl text-gray-400">→</div>
-  <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl">5</div>
-    <div class="mt-2 text-xs font-semibold text-center">部署交付<br><span class="text-[10px] text-gray-400">Deployment</span></div>
-  </div>
-  <div class="text-2xl text-gray-400">→</div>
-  <div class="flex flex-col items-center">
-    <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl">6</div>
-    <div class="mt-2 text-xs font-semibold text-center">維運優化<br><span class="text-[10px] text-gray-400">Maintenance</span></div>
-  </div>
-</div>
+<SDLC />
 
 ---
 layout: center
 class: bg-[#172966] text-white
 ---
 
-## 聚焦第一步？
+## 為什麼從 SDLC 開始？
 
-- 寫程式之前，**你要知道你要做什麼**
-- 企劃不清楚，程式碼就會混亂
-- 大多數案子失敗，不是寫錯，是「做錯」
+- 每個 App 背後都有一套「需求 → 規劃 → 實作 → 交付」的流程  
+- 很多看似簡單的請求，其實都能轉換成這樣的結構
 
-> 🎯 這場分享不是教你 coding，而是教你 **如何開始**
+> 今天的例子，就是從一個「旅行企劃需求」開始，逐步落地為一個完整系統
+
+---
+
+## 實際例子
+
+一家公司需要找人外包做一個「2025 員工沖繩獎勵旅遊」的完整企劃，以及手機 APP。
+需求如下：
+
+- 必須有活動簡介、行程安排、預算估算
+- 需要線上報名功能，方便同仁填寫個人資料
+- 報名資料要自動匯入 Google Sheets，方便管理
+- 報名後自動寄信通知員工，確認已收到申請
+
+你要怎麼開始著手？有哪些細節要規劃？
 
 ---
 layout: center
 class: bg-[#172966] text-white
 ---
 
-## 熟悉嗎？
+## 聚焦第一步
 
-- 主管說：「幫我寫一份旅遊企劃」
-- 朋友說：「幫我弄個報名系統」
-- 自己想：「有沒有辦法自動寄信？」
+- 不是所有事情都要規劃到極致，但**多數事情有規劃，結果會好很多**
+- 執行前花點時間想清楚，常能省下大量返工
+- 很多專案問題，不在於「技術難題」，而在於「方向沒先弄明白」
 
-> 🤔 你知道要做什麼，但不知道怎麼開始  
-> 👉 今天就是從這裡開始
+> 🎯 這場分享不是只講 coding，更強調 **如何開始、如何規劃**
 
 ---
 layout: center
 class: bg-[#172966] text-white
 ---
 
-## 今天，我們會一起完成這三件事
+## 今天我們會走這樣一條路：
 
-✅ ChatGPT 拆需求 → 得到清楚摘要  
-✅ 自動產出 Google Docs（企劃書）  
-✅ 建立 Google Form + Sheets + 寄信
+1. 找出問題：旅行企劃的需求
+2. 釐清內容：用 ChatGPT 生出企劃草稿
+3. 自動化排版：用 Apps Script 產出 Google Docs
+4. 收集資料：打造 Google Form 串接 Sheets
+5. 自動寄信：完成通知流程
 
-> 🌱 三步驟，一條龍自動化實作！
-
----
-layout: two-cols
----
-
-## Input → Output
-
-- 對話：「幫我安排員工旅遊」
-- Prompt 設計：明確化、可抽換變數
-- ChatGPT：產出可修改的草稿
-- Apps Script：套件式自動處理文件與表單
+> 🎯 我們從對話開始，走到一個完整的工具流程
 
 ---
 layout: center
 ---
 
-## 一個新習慣：用 ChatGPT 當你的「對話型規劃助理」
+## ChatGPT
 
-- 你問 ChatGPT 的，不是「寫什麼程式」
-- 而是「幫我釐清我要什麼」
-
-> 你不需要當資深工程師  
-> 只要學會 **如何好好提問、好好整理**
+我們的第一位助理
 
 ---
 layout: center
+class: bg-[#172966] text-white
+---
+
+## 我們要用 ChatGPT 做什麼？
+
+- 分析需求 → 生出企劃草稿（有結構、有邏輯、有語氣）
+- 無痛進入文件寫作的第一步
+- 把過去三天的工作，變成三分鐘完成
+
+> 🪄 這不只是「生成文字」，而是讓你擁有一個思路清晰的提案助理
+
+---
+layout: center
+---
+
+## 如何提問才能讓 AI 更懂你？
+
+```md
+請協助我產出一份 Google Docs 企劃書草稿，稍後我會用 Google Apps Script 自動套用格式。
+根據以下資訊，請先列出條列式大綱，並針對每一段落撰寫專業且易於溝通的內容（避免過於學術或廣告口吻）：
+
+- 主題：2025 員工日本大阪獎勵旅遊
+- 目的：激勵員工、促進跨部門交流
+- 必備內容：摘要、背景、解決方案、執行步驟、預期成效、預算概覽、注意事項
+```
+
+---
+
+## 把草稿轉成程式：讓 Apps Script 幫你自動化
+
+```markdown
+請根據上述內容，協助我產生一段 Google Apps Script 程式碼，實現自動化產生 Google Docs 企劃書的功能，並根據指定章節與內容結構自動排版。
+```
+
+---
+layout: center
+---
+
+## Google Apps Script 表演時間
+
+---
+
+## 利用 Bolt.new 製作獨一無二的 APP
+
+這一次我們會製作 Google Form
+
+---
+
+## 報名表格
+
+---
+
+````markdown
+請幫我用 Google Apps Script 建立一份 Google Form，內容包含以下題目：
+
+1. 姓名（必填）
+2. Email（必填並驗證格式）
+3. 程式經驗（單選：完全新手、有簡單經驗、熟悉前端、熟悉後端）
+4. 偏好講座語言（單選：粵語、國語、都可以）
+5. 訂閱意願（單選：願意，我對 AI 寫程式的內容很有興趣；暫時不需要，謝謝）
+   並將回應自動串接到同名 Google Sheets。
+
+請你參考以下的代碼，完成表單的建立和配置：
+
+```javascript
+function createOrEditBoltNewForm() {
+  // 定義表單標題和對應的試算表標題
+  const formTitle =
+    "26/04/25 - AI 寫程式神器 bolt.new — 讓你開發效率提升 100 倍！";
+  const sheetTitle = `${formTitle} 回應`;
+
+  // 嘗試查找是否已存在同名表單
+  const forms = DriveApp.getFilesByName(formTitle);
+  let form;
+
+  // 如果表單已存在，則打開它；否則創建新表單
+  if (forms.hasNext()) {
+    const file = forms.next();
+    form = FormApp.openById(file.getId());
+    Logger.log("已有表單，進行編輯：" + form.getEditUrl());
+  } else {
+    form = FormApp.create(formTitle);
+    Logger.log("新建表單完成：" + form.getEditUrl());
+  }
+
+  // 設置表單描述，包括活動詳情和講者介紹
+  form.setDescription(
+    "感謝你有興趣參加本次免費線上講座！\n" +
+      "我將介紹 AI 寫程式工具 bolt.new，並示範如何從 0 寫出完整 Web App，幫助你提升開發效率。\n\n" +
+      "📅 活動時間：2025 年 4 月 26 日（星期六）下午 2:00 – 4:00\n" +
+      "📍 活動地點：Jitsi Meet 線上會議\n" +
+      "💡 活動完全免費，歡迎自由參加！\n\n" +
+      "🎤 講者介紹 — Calpa Liu\n\n" +
+      "- 全端工程師，曾獲 ETHGlobal Taipei 黑客松 1inch 賽道第二名\n" +
+      "- 使用 AI 工具開發 Web3 儀表板 OrbitGO\n" +
+      "- 專精 AI 寫程式工具，如 bolt.new、ChatGPT 等\n" +
+      "- 擅長把開發知識用簡單語言分享給新手與工程師"
+  );
+
+  // 清除表單中的所有舊題目
+  const items = form.getItems();
+  for (let i = 0; i < items.length; i++) {
+    form.deleteItem(items[i]);
+  }
+
+  // 添加新的表單題目
+  // 姓名（必填文本題）
+  form.addTextItem().setTitle("你的姓名是？").setRequired(true);
+
+  // 程式經驗（必填單選題）
+  form
+    .addMultipleChoiceItem()
+    .setTitle("你目前的程式經驗？")
+    .setChoiceValues([
+      "完全新手",
+      "有寫過簡單網頁",
+      "熟悉前端開發",
+      "熟悉後端或全端開發",
+    ])
+    .setRequired(true);
+
+  // 興趣點（必填複選題，可自定義其他選項）
+  form
+    .addCheckboxItem()
+    .setTitle("你對這場講座最感興趣的是？")
+    .setChoiceValues([
+      "想了解 bolt.new 是什麼",
+      "想看實際 AI 寫程式的操作示範",
+      "想知道如何用 AI 加速 Side Project",
+      "想學會如何下指令給 AI 工具",
+      "對 AI 工具與開發整合的未來趨勢有興趣",
+    ])
+    .showOtherOption(true)
+    .setRequired(true);
+
+  // Email（必填，帶驗證的文本題）
+  form
+    .addTextItem()
+    .setTitle("請留下你的 Email")
+    .setValidation(FormApp.createTextValidation().requireTextIsEmail().build())
+    .setRequired(true);
+
+  // 訂閱意願（必填單選題）
+  form
+    .addMultipleChoiceItem()
+    .setTitle("你是否願意日後收到更多關於 AI 寫程式的相關資訊、教學或文章？")
+    .setChoiceValues(["願意，我對 AI 寫程式的內容很有興趣", "暫時不需要，謝謝"])
+    .setRequired(true);
+
+  // 檢查是否已有同名試算表，如果沒有則創建新的
+  const spreadsheets = DriveApp.getFilesByName(sheetTitle);
+  let sheet;
+  if (spreadsheets.hasNext()) {
+    const file = spreadsheets.next();
+    sheet = SpreadsheetApp.openById(file.getId());
+    Logger.log("已有試算表，使用現有的：" + sheet.getUrl());
+  } else {
+    sheet = SpreadsheetApp.create(sheetTitle);
+    Logger.log("新建試算表完成：" + sheet.getUrl());
+  }
+
+  // 設定表單回應的目的地為試算表
+  form.setDestination(FormApp.DestinationType.SPREADSHEET, sheet.getId());
+}
+````
+
+---
+
+## 自動製作 Google Form
+
+---
+
+## 自動製作 Google Sheets
+
 ---
 
 ## 我們完成了什麼？
 
-- 一份從聊天轉換而來的企劃書  
-- 一個可用的 Google 表單系統  
-- 一整個自動化寄信的流程
+- 一份從聊天轉換而來的企劃書
+- 一個可用的 Google 表單系統
 
 > 🎯 你已經完成了一份可以交付的成果
 
+---
+layout: center
+class: bg-[#172966] text-white
+---
 
+## 除了旅遊企劃書，這套系統還能...
+
+- 🗓️ 自動建立 SOP、會議記錄、操作手冊
+- 🧑‍🏫 教師教案、自動生成教材大綱
+- 💼 行銷簡報、Pitch Deck、活動規劃書
+- ⚖️ 合約草稿、自動補條款
+
+> 📌 你只需要換一組 Prompt，AI 就能幫你打樣出來
 
 ---
 
 ### 跟你說說我接下來的計畫
 
 - 📍 **5/30（台中） & 6/1（台北）** 有兩場免費線下分享，歡迎報名
-- 🧪 **6 月份將推出 AI × App 實戰密集課程**  
-  - 只要一小時，就能做出 2–3 個 App  
+- 🧪 **6 月份將推出 AI × App 實戰密集課程**
+  - 只要一小時，就能做出 2–3 個 App
   - 價格為 **50 USDT（報名今天現場送 10 USD 折扣碼）**
 
 ---
@@ -251,8 +392,8 @@ layout: center
 
 🧩 想持續學更多？有幾種方式可以支持我：
 
-- 加入 Discord 與我保持聯繫  
-- 追蹤我的部落格 👉 <https://calpa.me>  
+- 加入 Discord 與我保持聯繫
+- 追蹤我的部落格 👉 <https://calpa.me>
 - 只要填寫今天的表單，下次課程就能立減 10 美元 🎁
 
 📩 有問題也歡迎私訊我或留言，我會努力在 Discord 回答大家！
