@@ -11,8 +11,7 @@
     </div>
 
     <!-- 打字文字 -->
-    <span class="relative z-20 py-3 drop-shadow-lg font-mono text-2xl tracking-widest
-                 whitespace-nowrap overflow-hidden inline-block border-r-2 border-white animate-typing-loop">
+    <span class="relative z-20 py-3 drop-shadow-lg font-mono text-2xl tracking-widest whitespace-nowrap overflow-hidden inline-block animate-typing-loop">
       Now loading...
     </span>
   </div>
@@ -49,7 +48,6 @@
 .animate-typing-loop {
   width: 0;
   animation:
-    typingLoop 10s steps(16, end) infinite,
-    blinkRight 0.75s step-end infinite;
+    typingLoop 10s steps(16, end) infinite;
 }
 </style>
