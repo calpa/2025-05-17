@@ -469,7 +469,7 @@ layout: two-cols
 📍 地點：台中 Monospace（台灣大道二段2號16樓之2）
 
 🎟 報名連結：
-👉 https://www.accupass.com/event/2505100934043309165990
+👉 https://go.calpa.me/2025-05-30
 
 ::right::
 
@@ -494,7 +494,7 @@ layout: two-cols
 🆓 免費參加
 
 📌 報名表單：
-👉 https://forms.gle/C5pu8w9qZaHEajZq9
+👉 https://go.calpa.me/2025-06-01
 
 ---
 
@@ -513,6 +513,9 @@ layout: two-cols
 📍 地點：Jitsi Meet 線上直播
 
 💰 費用：$50 USD（填寫問卷可折抵 $10 USD）
+
+📌 報名表單：
+👉 https://go.calpa.me/2025-06-14
 
 ---
 
