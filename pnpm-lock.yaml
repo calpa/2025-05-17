@@ -2268,8 +2268,8 @@ packages:
     resolution: {integrity: sha512-ndMD27+gUNYt9aXrb4/0vSBHKP007mpD2eCJppzhqXDG1DmN0Q6I6iFz+QvIjOPDKzzPjoYZbsWp6lPLJjgs9g==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
 
-  source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
+  source-map-js@1.2.2:
+    resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
   space-separated-tokens@2.0.2:
@@ -3277,7 +3277,7 @@ snapshots:
       shiki: 3.4.2
       shiki-magic-move: 1.1.0(shiki@3.4.2)(vue@3.5.14(typescript@5.8.3))
       sirv: 3.0.1
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
       typescript: 5.8.3
       unhead: 2.0.8
       unocss: 66.1.2(postcss@8.5.3)(vite@6.3.5(@types/node@18.19.100)(jiti@2.4.2)(yaml@2.8.0))(vue@3.5.14(typescript@5.8.3))
@@ -3839,7 +3839,7 @@ snapshots:
       '@vue/shared': 3.5.14
       entities: 4.5.0
       estree-walker: 2.0.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-dom@3.5.14':
     dependencies:
@@ -3856,7 +3856,7 @@ snapshots:
       estree-walker: 2.0.2
       magic-string: 0.30.17
       postcss: 8.5.3
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-ssr@3.5.14':
     dependencies:
@@ -4123,7 +4123,7 @@ snapshots:
   css-tree@3.1.0:
     dependencies:
       mdn-data: 2.12.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   cssesc@3.0.0: {}
 
@@ -5256,7 +5256,7 @@ snapshots:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   pptxgenjs@3.12.0:
     dependencies:
@@ -5439,7 +5439,7 @@ snapshots:
       prism-theme-vars: 0.2.5
       theme-vitesse: 0.7.9
 
-  source-map-js@1.2.1: {}
+  source-map-js@1.2.2: {}
 
   space-separated-tokens@2.0.2: {}
 
